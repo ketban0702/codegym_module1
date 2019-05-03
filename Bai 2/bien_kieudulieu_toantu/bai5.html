@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Biến, kiểu dữ liệu, toán tử</title>
+</head>
+<body>
+    <script>
+    let diemVatly;
+    let diemHoaHoc;
+    let diemSinhHoc;
+    diemVatly=prompt(" Nhập điểm Vật lý của Sinh Viên ");
+    diemHoaHoc=prompt(" Nhập điểm Hóa học của Sinh Viên ");
+    diemSinhHoc=prompt(" Nhập điểm Sinh học của Sinh Viên ");
+
+    //Dùng hàm parse để chuyển từ kiểu string sang số
+    let diemVL = parseInt(diemVatly);
+    let diemHH = parseInt(diemHoaHoc);
+    let diemSH = parseInt(diemSinhHoc);
+
+    //Tính điểm trung bình và tổng điểm
+    let DTB=(diemVL+diemHH+diemSH)/3;
+    let tongDiem = diemVL+diemHH+diemSH;
+    document.write(" Điểm trung bình là:",DTB);
+    document.write('<br/>');
+    document.write(" Tổng điểm là:",tongDiem);
+    </script>
+</body>
+</html>

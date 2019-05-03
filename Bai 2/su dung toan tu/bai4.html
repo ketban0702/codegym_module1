@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sử dụng toán tử</title>
+</head>
+<body>
+    <script>
+    let inputWidth;// Khai báo chiều rộng
+    let inputHeight;// Khai báo chiều cao
+
+    inputWidth = prompt("Enter the width"); //Nhập chiều rộng từ bàn phím
+    inputHeight = prompt("Enter the height");//Nhập chiều cao từ bàn phím
+
+    //Hàm parseInt chuyển giá trị từ chuỗi sang số nguyên
+    let width = parseInt(inputWidth);
+    let height = parseInt(inputHeight);
+
+    let area = width * height;// Tính diện tích hình chữ nhật
+    document.write("The area is: " + area);// Xuất ra màn hình
+    </script>
+</body>
+</html>
