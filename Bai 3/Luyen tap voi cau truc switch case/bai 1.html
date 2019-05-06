@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chuyen doi if sang switch case</title>
+</head>
+<body>
+    <script>
+    // Khai bao bien trinh duyet
+    var browser=prompt("Nhap tu ban phim");
+    // Sw dung cau truc switch case
+    switch (browser) {
+    case "Edge":
+        alert("You've got the Edge!");
+        break;
+    case "Chrome":
+    case "Firefox":
+    case "Safari":
+    case "Opera":
+        alert("Okay we support these browsers too");
+        break;
+    default:
+        alert("We hope that this page looks ok!");
+        break;
+    }
+    </script>
+</body>
+</html>
