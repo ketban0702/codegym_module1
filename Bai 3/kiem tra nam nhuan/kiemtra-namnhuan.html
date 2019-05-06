@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kiem tra nam nhuan</title>
+</head>
+<body>
+    <script>
+        //Nhap nam
+        var  year=parseInt(prompt("Nhap nam can kiem tra"));
+        // Nhung nam chia het cho 4 ma khong chia het 100 la nam nhuan
+        // Nhung nam chia het 100 ma khong chia het 400 khong phai nam nhuan
+        // Nhung nam chia het 100 va 400 la nam nhuan
+        if ( year % 4 === 0){                                 // Chia het cho 4
+            if (year %100===0){                               // Chia het 100
+                if (year %400===0){                           // Chia het 400
+                    alert(year + " la Nam nhuan");
+                }else
+                    alert(year + " ko phai la Nam nhuan");    // Khong chia het 400
+            }else
+                alert(year + " la Nam nhuan");                 // Khong chia het 100
+        }else                                                 // Khong chia het cho 4
+            alert(year + " ko phai la Nam nhuan");
+
+    </script>
+</body>
+</html>

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e0346e1-4658-4345-8e9f-fd1575f5b183" name="Default Changelist" comment="" />
+    <list default="true" id="9541fcf8-1129-4b84-aacb-04c64399ea55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kiemtra-namnhuan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chi so can nang co the/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chi so can nang co the/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,10 +17,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bmi.html">
+        <entry file="file://$PROJECT_DIR$/kiemtra-namnhuan.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="340">
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -37,16 +40,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bmi.html" />
+        <option value="$PROJECT_DIR$/kiemtra-namnhuan.html" />
       </list>
     </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
-        <option value="$PROJECT_DIR$/.idea/chi so can nang co the.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/kiem tra nam nhuan.iml" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
       </list>
     </option>
@@ -67,8 +70,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="chi so can nang co the" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chi so can nang co the" type="462c0819:PsiDirectoryNode" />
+              <item name="kiem tra nam nhuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kiem tra nam nhuan" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -79,9 +82,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kiem tra nam nhuan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -98,12 +100,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="bmi.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/chi so can nang co the/bmi.html" useBuiltInWebServerPort="true">
+    <configuration name="kiemtra-namnhuan.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/kiem tra nam nhuan/kiemtra-namnhuan.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.bmi.html" />
+        <item itemvalue="JavaScript Debug.kiemtra-namnhuan.html" />
       </list>
     </recent_temporary>
   </component>
@@ -112,20 +114,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4e0346e1-4658-4345-8e9f-fd1575f5b183" name="Default Changelist" comment="" />
-      <created>1557125051839</created>
+      <changelist id="9541fcf8-1129-4b84-aacb-04c64399ea55" name="Default Changelist" comment="" />
+      <created>1557125698614</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1557125051839</updated>
-      <workItem from="1557125053059" duration="645000" />
+      <updated>1557125698614</updated>
+      <workItem from="1557125699763" duration="1068000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="645000" />
+    <option name="totallyTimeSpent" value="1068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -150,10 +153,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bmi.html">
+    <entry file="file://$PROJECT_DIR$/kiemtra-namnhuan.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="340">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
