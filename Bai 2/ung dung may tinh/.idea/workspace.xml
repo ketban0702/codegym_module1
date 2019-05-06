@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d16e2959-4f16-45b5-beb6-8b45327bd82d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3ee41506-176e-489d-9da0-e923073bc9eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/morong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ungdungmaytinh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai 1/Nhung java script/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai 1/Nhung java script/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ung dung chuyen doi tien te/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ung dung chuyen doi tien te/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ung dung chuyen doi tien te/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ung dung chuyen doi tien te/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ung dung chuyen doi tien te/chuyendoitiente.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ung dung chuyen doi tien te/chuyendoitiente.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,37 +21,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bai1.html">
+        <entry file="file://$PROJECT_DIR$/ungdungmaytinh.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bai2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="1071">
+              <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bai3.html">
+        <entry file="file://$PROJECT_DIR$/morong.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/showMessage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="272">
+              <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -57,7 +44,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -67,19 +53,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bai1.html" />
-        <option value="$PROJECT_DIR$/bai2.html" />
-        <option value="$PROJECT_DIR$/showMessage.js" />
-        <option value="$PROJECT_DIR$/bai3.html" />
+        <option value="$PROJECT_DIR$/ungdungmaytinh.html" />
+        <option value="$PROJECT_DIR$/morong.html" />
       </list>
     </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
-        <option value="$PROJECT_DIR$/.idea/Nhung java script.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/ung dung may tinh.iml" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
       </list>
     </option>
@@ -90,9 +74,7 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -102,8 +84,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="Nhung java script" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nhung java script" type="462c0819:PsiDirectoryNode" />
+              <item name="ung dung may tinh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ung dung may tinh" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -114,11 +96,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Bai 2/ung dung chuyen doi tien te" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Bai 3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -132,21 +114,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.bai3.html">
-    <configuration name="bai1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Nhung java script/bai1.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.morong.html">
+    <configuration name="morong.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ung dung may tinh/morong.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bai2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Nhung java script/bai2.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="bai3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Nhung java script/bai3.html" useBuiltInWebServerPort="true">
+    <configuration name="ungdungmaytinh.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ung dung may tinh/ungdungmaytinh.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.bai3.html" />
-        <item itemvalue="JavaScript Debug.bai2.html" />
-        <item itemvalue="JavaScript Debug.bai1.html" />
+        <item itemvalue="JavaScript Debug.morong.html" />
+        <item itemvalue="JavaScript Debug.ungdungmaytinh.html" />
       </list>
     </recent_temporary>
   </component>
@@ -155,18 +133,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d16e2959-4f16-45b5-beb6-8b45327bd82d" name="Default Changelist" comment="" />
-      <created>1556856074793</created>
+      <changelist id="3ee41506-176e-489d-9da0-e923073bc9eb" name="Default Changelist" comment="" />
+      <created>1556932175259</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1556856074793</updated>
-      <workItem from="1556856075909" duration="146000" />
-      <workItem from="1556865444582" duration="1158000" />
+      <updated>1556932175259</updated>
+      <workItem from="1556932176446" duration="7162000" />
+      <workItem from="1557107800236" duration="30000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1304000" />
+    <option name="totallyTimeSpent" value="7192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -194,31 +172,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bai1.html">
+    <entry file="file://$PROJECT_DIR$/ungdungmaytinh.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="1071">
+          <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bai2.html">
+    <entry file="file://$PROJECT_DIR$/morong.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/showMessage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bai3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="272">
+          <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
         </state>
       </provider>
     </entry>

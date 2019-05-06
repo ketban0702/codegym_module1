@@ -5,16 +5,58 @@
   <title>Chuyển đổi tiền tệ </title>
 </head>
 <body>
-    <form>
-  <label> Amount <br><label/>
-  <input type="text" name="amount" id="amount" value="">
-  <button onclick ="getInfor()"> Convert<button/>
-    </form>
-    <script>
-    function getInfo()
-    {
-        var amount=document.getElementById("amount").value;
-    }
+<table border="0" width="100%">
+    <tr>
+        <td>Amount:</td>
+        <td>From Currence</td>
+        <td>To Current</td>
+    </tr>
+    <tr>
+        <td><input type ="number" id="textbox" min="0"></td>
+        <td>
+                <select id="combobox1">
+                    <option value="VIETNAM">VIETNAM</option>
+                    <option value="USD">USD</option>
+                </select>
+        </td>
+        <td>
+                <select id="combobox2">
+                    <option value="USD" >USD</option>
+                    <option value="VIETNAM">VIETNAM</option>
+                </select>
+        </td>
+        <td>
+                <button onclick="myFunction()">Convert</button>
+        </td>
+    </tr>
+</table>
+<div id="kq"></div>
+<script>
+    function myFunction() {
+    var soTien1=document.getElementById("textbox").value;
+    var from=document.getElementById("combobox1").value;
+    var to=document.getElementById("combobox2").value;
+    var soTien=parseInt(soTien1);
+        if (from==="VIETNAM")
+            {
+            if(to==="USD")
+                {
+                    document.getElementById("kq").innerHTML=soTien/23000;
+                }
+                else
+                    document.getElementById("kq").innerHTML=soTien;
+            }
+        else
+            {
+                if(to==="VIETNAM")
+                {
+                    document.getElementById("kq").innerHTML=soTien*23000;
+                }
+                else
+                    document.getElementById("kq").innerHTML=soTien;
+            }
+
+}
     </script>
 </body>
 </html>

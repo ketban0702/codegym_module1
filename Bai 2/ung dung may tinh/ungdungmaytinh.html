@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ung dung may tinh</title>
+</head>
+<body>
+    <tr>
+    <td><input type="number" id="textBox1"></td>
+    <td><input type="number" id="textBox2"></td>
+    </tr><br>
+    <tr></tr>
+    <tr>
+        <td><button type="text" onclick="Additon()">Addition(+)</button></td>
+        <td><button type="text" onclick="Subtration()">Subtration(-)</button></td>
+        <td><button type="text" onclick="Multication()">Multication(X)</button></td>
+        <td><button type="text" onclick="Division()">Division(/)</button></td>
+    </tr>
+    <div id="kq"></div>
+</body>
+<script>
+
+
+    // Ham Addtion()
+    function Additon() {
+        //Khai bao bien
+            let soThu1=document.getElementById("textBox1").value;
+            let soThu2=document.getElementById("textBox2").value;
+            // Chuyen doi kieu du lieu
+            let so1=parseInt(soThu1);
+            let so2=parseInt(soThu2);
+        // Hien thi ket qua
+            document.getElementById("kq").innerHTML=so1+so2;
+    }
+    // Ham Subtration()
+    function Subtration() {
+            //Khai bao bien
+             let soThu1=document.getElementById("textBox1").value;
+             let soThu2=document.getElementById("textBox2").value;
+            // Chuyen doi kieu du lieu
+             let so1=parseInt(soThu1);
+             let so2=parseInt(soThu2);
+            // Hien thi ket qua
+            document.getElementById("kq").innerHTML=so1-so2;
+    }
+    // Ham Multication()
+    function Multication() {
+            //Khai bao bien
+             let soThu1=document.getElementById("textBox1").value;
+             let soThu2=document.getElementById("textBox2").value;
+            // Chuyen doi kieu du lieu
+             let so1=parseInt(soThu1);
+             let so2=parseInt(soThu2);
+             // Hien thi ket qua
+                document.getElementById("kq").innerHTML=so1*so2;
+    }
+    // Ham Division()
+    function Division() {
+            //Khai bao bien
+             let soThu1=document.getElementById("textBox1").value;
+             let soThu2=document.getElementById("textBox2").value;
+            // Chuyen doi kieu du lieu
+             let so1=parseInt(soThu1);
+             let so2=parseInt(soThu2);
+            // Hien thi ket qua
+            if (so2!==0)
+                {
+                 document.getElementById("kq").innerHTML=so1/so2;
+                }
+            else
+                {
+                    document.getElementById("kq").innerHTML="Khong thuc hien duoc phep chia"
+                }
+    }
+</script>
+</html>
