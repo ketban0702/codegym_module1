@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82591ea7-c1d6-4d66-99c8-d077e0b5e732" name="Default Changelist" comment="" />
+    <list default="true" id="26aeaba1-2888-4d29-9b59-b45925568ab5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Luyen tap voi cau truc switch case/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Luyen tap voi cau truc switch case/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,28 +18,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bai 1.html">
+        <entry file="file://$PROJECT_DIR$/bai1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bai 2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="238">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bai3.html">
+        <entry file="file://$PROJECT_DIR$/bai2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="238">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -55,16 +50,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bai 1.html" />
-        <option value="$PROJECT_DIR$/bai 2.html" />
-        <option value="$PROJECT_DIR$/bai3.html" />
+        <option value="$PROJECT_DIR$/bai1.html" />
+        <option value="$PROJECT_DIR$/bai2.html" />
       </list>
     </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
-        <option value="$PROJECT_DIR$/.idea/Luyen tap voi cau truc switch case.iml" />
+        <option value="$PROJECT_DIR$/.idea/Luyen tap voi toan tu.iml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
@@ -87,8 +81,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="Luyen tap voi cau truc switch case" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Luyen tap voi cau truc switch case" type="462c0819:PsiDirectoryNode" />
+              <item name="Luyen tap voi toan tu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Luyen tap voi toan tu" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -99,9 +93,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Luyen tap voi toan tu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -117,21 +110,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.bai3.html">
-    <configuration name="bai 1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Luyen tap voi cau truc switch case/bai 1.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.bai2.html">
+    <configuration name="bai1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Luyen tap voi toan tu/bai1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bai 2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Luyen tap voi cau truc switch case/bai 2.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="bai3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Luyen tap voi cau truc switch case/bai3.html" useBuiltInWebServerPort="true">
+    <configuration name="bai2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Luyen tap voi toan tu/bai2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.bai3.html" />
-        <item itemvalue="JavaScript Debug.bai 2.html" />
-        <item itemvalue="JavaScript Debug.bai 1.html" />
+        <item itemvalue="JavaScript Debug.bai2.html" />
+        <item itemvalue="JavaScript Debug.bai1.html" />
       </list>
     </recent_temporary>
   </component>
@@ -140,20 +129,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="82591ea7-c1d6-4d66-99c8-d077e0b5e732" name="Default Changelist" comment="" />
-      <created>1557129102011</created>
+      <changelist id="26aeaba1-2888-4d29-9b59-b45925568ab5" name="Default Changelist" comment="" />
+      <created>1557132712663</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1557129102011</updated>
-      <workItem from="1557129103161" duration="2379000" />
+      <updated>1557132712663</updated>
+      <workItem from="1557132713765" duration="866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2379000" />
+    <option name="totallyTimeSpent" value="866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -178,24 +168,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bai 1.html">
+    <entry file="file://$PROJECT_DIR$/bai1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="238">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bai 2.html">
+    <entry file="file://$PROJECT_DIR$/bai2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bai3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="238">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
