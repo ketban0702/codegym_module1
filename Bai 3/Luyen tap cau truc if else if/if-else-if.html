@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Luyen tap voi cau truc if else if</title>
+</head>
+<body>
+    <script>
+            // Khai bao ten nguoi dung
+            var userName=prompt("Nhap ten nguoi dung tu ban phim");
+            if (userName == "Admin"){
+                   // Khai bao mat khau
+                   var password = prompt("Nhap pass");
+                   // Kiem tra mat khau
+                   if (password == "TheMaster")
+                       alert("Welcome");
+                   else if(password == null)
+                       alert("Cancel");
+                        else
+                       alert("Wrong password");
+            }else if (userName == null)
+                    alert("Cancel");
+                  else
+                    alert("I don't know you");
+    </script>
+</body>
+</html>
