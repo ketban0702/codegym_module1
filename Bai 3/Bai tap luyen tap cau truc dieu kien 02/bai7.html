@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Giai pt bac 2</title>
+</head>
+<body>
+    <script>
+            // PT bac 2 ax2+bx+c=0
+            // Nhap a,b,c
+            var a = parseInt(prompt("Nhap a: "));
+            var b = parseInt(prompt("Nhap b: "));
+            var c = parseInt(prompt("Nhap c: "));
+            // Giai pt bac 2
+            if (a===0){
+                if (b===0){
+                    if (c===0)
+                        document.write("Pt vo so nghiem");
+                    else
+                        document.write("Pt vo nghiem");
+                }else
+                    document.write("Pt co nghiem x= "+(-c/b));
+            }else {
+                var denta = Math.pow(b,2)-4*a*c;
+                if (denta <0)
+                    document.write("Pt vo nghiem");
+                else if (denta===0)
+                    document.write("Pt co nghiem kep x= "+(-b/(2*a)));
+                else
+                    document.write("Pt co 2 nghiem x1 = "+(-b-Math.sqrt(denta)/(2*a))+"   x2 = "+(-b+Math.sqrt(denta)/(2*a)));
+            }
+    </script>
+</body>
+</html>
