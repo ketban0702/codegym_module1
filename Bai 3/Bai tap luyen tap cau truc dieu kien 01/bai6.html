@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rinh hoa hong theo doanh so ban hang</title>
+</head>
+<body>
+        <script>
+                // Nhap vao doanhSo
+                var doanhSo = parseInt(prompt(" Doanh so ban hang :",'',+"vnd"));
+                // Chia hoa hong theo doanh so
+                //doanhSo >=10.000.000 duoc 1% va doanhSo <20.000.000
+                //doanhSo >=20.000.000 duoc 2% va doanhSo <30.000.000
+                //doanhSo >30.000.000 duoc 3%
+                if (doanhSo < 10000000 )
+                    document.write("Khong duoc huong hoa hong");
+                else if (doanhSo < 20000000 )
+                    document.write("Huong 1% hoa hong la: "+(1*doanhSo/100)+" vnd");
+                    else if (doanhSo < 30000000)
+                    document.write("Huong 2% hoa hong la: "+(2*doanhSo/100)+" vnd");
+                        else
+                        document.write("Huong 3% hoa hong la: "+(3*doanhSo/100)+" vnd");
+        </script>
+</body>
+</html>

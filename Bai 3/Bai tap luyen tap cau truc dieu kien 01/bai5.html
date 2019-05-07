@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Xep loai</title>
+</head>
+<body>
+    <script>
+        // Nhap diemKiemTra,diemGiuaKy,diemCuoiKy
+        var diemKiemTra = parseInt(prompt(" Diem Kiem Tra"));
+        var diemGiuaKy = parseInt(prompt(" Diem Giua Ky"));
+        var diemCuoiKy = parseInt(prompt(" Diem Cuoi Ky"));
+        var diemTrungBinh;
+        // Tinh diemTrungBinh
+        diemTrungBinh = (diemKiemTra+diemGiuaKy*2+diemCuoiKy*3)/6;
+        //Xep loai
+        if (diemTrungBinh<5)
+            document.write("Yeu");
+        else if (diemTrungBinh < 6.5)
+            document.write("Trung Binh");
+            else if (diemTrungBinh <8)
+                document.write("Kha");
+                else
+                document.write("Gioi");
+    </script>
+</body>
+</html>

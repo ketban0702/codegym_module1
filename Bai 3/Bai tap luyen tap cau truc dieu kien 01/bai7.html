@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tinh cuoc dien thoai ho gia dinh</title>
+</head>
+<body>
+        <script>
+            // Nhap thoigian goi
+            var thoigian = parseInt(prompt("Nhap thoi gian goi: "));
+            // Bang tinh cuoc
+            // neu <100 phut 1 phut 1000
+            //neu >100 phut  va <200 phut 1 phut 2000
+            // neu >200 phut 1 phut 3000
+            if (thoigian< 100)
+                document.write("so tien tra la :"+(thoigian*1000)+" vnd");
+            else if (thoigian < 200)
+                document.write("so tien tra la :"+(thoigian*2000)+" vnd");
+                else
+                document.write("so tien tra la :"+(thoigian*3000)+" vnd");
+        </script>
+</body>
+</html>
