@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Do You Love Me</title>
+</head>
+<body>
+    <h1>Do you love me</h1>
+    <input type ="button" value ="YES "onclick="yes()">
+    <input type ="button" value ="NO " id= "no" onmouseover="no()" style="position:relative">
+<script>
+   function yes() {
+        alert("You are right");
+    }
+   function no() {
+       var a = parseInt(Math.random()*window.innerHeight) + "px";
+       var b = parseInt(Math.random()*window.innerWidth) + "px";
+        document.getElementById("no").style.left=a;
+        console.log(document.getElementById("no").style.left);
+        document.getElementById("no").style.top=b;
+   }
+</script>
+</body>
+</html>
