@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>$Title$</title>
+  <title>Giai thua so nguyen duong</title>
 </head>
 <body>
-$END$
+<script>
+    //Nhap so nguyen duong
+    var number =parseInt(prompt("Nhap so nguyen duong"));
+    if (number<0){
+        document.write("Vui long nhap lai number");
+    } else {
+       var gt=1;
+       for (var i=1;i<=number;i++){
+           gt = gt*i;
+       }
+       document.write(number+"!"+"="+gt);
+    }
+
+</script>
 </body>
 </html>

@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>$Title$</title>
+  <title>Tong 30 so tu nhien chia het 7 dau tien</title>
 </head>
 <body>
-$END$
+<script>
+var count=0, sum=0;
+for (var i=1;i<10000;i++){
+    if (i%7===0){
+        sum=sum+i;
+        count++;
+    }
+    if (count ===30){
+        document.write("Tong 30 so chia het cho 7 dau tien la:" +sum);
+        break;
+    }
+}
+</script>
 </body>
 </html>

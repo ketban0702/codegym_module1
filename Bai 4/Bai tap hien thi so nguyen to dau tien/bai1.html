@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>$Title$</title>
+  <title>Hien thi number so nguyen to dau tien</title>
 </head>
 <body>
-$END$
+    <script>
+    var number=parseInt(prompt("Nhap so lan can in"));
+    var count=0,uoc=0;
+    var n=2;
+    while (count<number){
+      // Kiem tra 2 co phai snt ko. Phai tang 2 len 1, tang count len 1
+        for (var i=1;i<=n;i++){
+            if (n%i===0)
+                uoc++;
+        }
+            if (uoc<=2) {
+            count++;
+            document.write(n+"<br>");
+        }
+        uoc=0;
+        n++;
+    }
+    </script>
 </body>
 </html>

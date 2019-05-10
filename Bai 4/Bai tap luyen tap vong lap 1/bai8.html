@@ -2,9 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>$Title$</title>
+  <title>Game doan so</title>
 </head>
 <body>
-$END$
+    <form>
+        <input type="button"onclick="clickChuot()"value="Choi">
+    </form>
+    <script>
+        function clickChuot() {
+          // So ngau nhien sinh ra trong khoang 0-10
+            var soNgauNhien= Math.floor(Math.random()*10);// Math.floor(x): tra ve so nguyen
+            // So nguoi dung nhap vao
+            for (var i=0;i<3;i++){
+                var soDoan=parseInt(prompt("Nhap so:"));
+                if (soDoan===soNgauNhien) {
+                    document.write("Ban da doan dung, so do la:"+soDoan);
+                    break;
+                }else {
+                    if (soDoan<soNgauNhien){
+                        alert("So ban doan nho hon cho da cho. Moi ban nhap lai");
+                    } else
+                       alert("So ban doan nho hon cho da cho. Moi ban nhap lai");
+                }
+
+            }
+
+        }
+    </script>
 </body>
 </html>

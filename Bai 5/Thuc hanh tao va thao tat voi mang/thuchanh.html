@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tao va thao tac voi mang</title>
+</head>
+<body>
+    <h1>Sample Screen:</h1>
+
+    <form>
+         <input type="text" id="text">
+         <input type="button" value="Add"id="btnAdd" onclick="addElement()">
+         <input type="button" value="Display" id="btnDisplay" onclick="displayElement()">
+    </form>
+    <div id="show">Show</div>
+<script>
+    var x=0;//Chi so mang
+    var arr = Array(); // Khai bao mang
+    // Khi nhap gia tri vao Text, Click Add se them phan tu vao mang. Click Display se hien thi cac mang o -->show
+    function addElement() {
+        arr[x]=document.getElementById("text").value;
+        x++;
+        document.getElementById("text").value="";
+    }
+    function displayElement() {
+        var e="<hr/>";
+        for (var i=0;i<arr.length;i++){
+         e=e+arr[i]+ '<br/>';
+         document.getElementById("show").innerText=e;
+     }
+    }
+</script>
+</body>
+</html>

@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>$Title$</title>
+  <title>So dau tien trong day fibonaci chia het 5 </title>
 </head>
 <body>
-$END$
+<script>
+    var a=1;
+    var b=0;//f(2)
+    var sum;
+    for (var i=1;i<=20;i++){
+        sum = a;
+        a = a + b;
+        b = sum;
+        if (sum%5===0)
+            break;
+    }
+    document.write(sum+"<br>");
+</script>
 </body>
 </html>
