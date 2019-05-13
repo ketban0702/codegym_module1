@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dao nguoc mang</title>
+</head>
+<body>
+<script>
+// Khai bao mang [-3,5,1,3,2,10];
+// khai bao "dau", "cuoi", bien trung gian;
+    var arr=[-3,5,1,3,2,10];
+    var dau=0, cuoi=arr.length-1;
+    var tam;
+   while (dau<cuoi) {
+        arr[dau]=tam;
+        arr[dau]=arr[cuoi];
+        arr[cuoi]=tam;
+        dau++;
+        cuoi--;
+   }
+   document.write(arr);
+</script>
+</body>
+</html>

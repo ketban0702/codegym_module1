@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dfeaa89-1c31-4987-8096-2a216eed158a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thuchanh.html" beforeDir="false" afterPath="$PROJECT_DIR$/thuchanh.html" afterDir="false" />
+    <list default="true" id="f78cd16a-ac07-4825-abb8-2dd1a07614d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/daoNguocMang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daonguoc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daonguoc1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thuc hanh tao va thao tat voi mang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Thuc hanh tao va thao tat voi mang/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thuc hanh tao va thao tat voi mang/thuchanh.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Thuc hanh tao va thao tat voi mang/thuchanh.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +19,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/thuchanh.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daoNguocMang.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="323">
+              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daonguoc.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/daonguoc1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -40,14 +61,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thuchanh.html" />
+        <option value="$PROJECT_DIR$/daoNguocMang.html" />
+        <option value="$PROJECT_DIR$/daonguoc.html" />
+        <option value="$PROJECT_DIR$/daonguoc1.html" />
       </list>
     </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
-        <option value="$PROJECT_DIR$/.idea/Thuc hanh tao va thao tat voi mang.iml" />
+        <option value="$PROJECT_DIR$/.idea/Thuc hanh dao nguoc cac phan tu trong mang.iml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
@@ -60,7 +83,9 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -71,8 +96,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="Thuc hanh tao va thao tat voi mang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Thuc hanh tao va thao tat voi mang" type="462c0819:PsiDirectoryNode" />
+              <item name="Thuc hanh dao nguoc cac phan tu trong mang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Thuc hanh dao nguoc cac phan tu trong mang" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -82,9 +107,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Thuc hanh dao nguoc cac phan tu trong mang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -100,13 +124,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="thuchanh.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Thuc hanh tao va thao tat voi mang/thuchanh.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.daonguoc1.html">
+    <configuration name="daoNguocMang.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Thuc hanh dao nguoc cac phan tu trong mang/daoNguocMang.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="daonguoc1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Thuc hanh dao nguoc cac phan tu trong mang/daonguoc1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="daonguoc.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Thuc hanh dao nguoc cac phan tu trong mang/daonguoc.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.thuchanh.html" />
+        <item itemvalue="JavaScript Debug.daonguoc1.html" />
+        <item itemvalue="JavaScript Debug.daonguoc.html" />
+        <item itemvalue="JavaScript Debug.daoNguocMang.html" />
       </list>
     </recent_temporary>
   </component>
@@ -115,17 +147,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4dfeaa89-1c31-4987-8096-2a216eed158a" name="Default Changelist" comment="" />
-      <created>1557471848742</created>
+      <changelist id="f78cd16a-ac07-4825-abb8-2dd1a07614d7" name="Default Changelist" comment="" />
+      <created>1557474341046</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1557471848742</updated>
-      <workItem from="1557471849974" duration="2488000" />
+      <updated>1557474341046</updated>
+      <workItem from="1557474342294" duration="1883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2488000" />
+    <option name="totallyTimeSpent" value="1883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -153,10 +185,24 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thuchanh.html">
+    <entry file="file://$PROJECT_DIR$/daoNguocMang.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="323">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daonguoc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daonguoc1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
