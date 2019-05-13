@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tim gia tri lon nhat trong mang</title>
+</head>
+<body>
+<script>
+    //Khai bao mang
+    var arr=[-3, 5, 1, 3, 2, 10];
+    // Gan phan tu max
+    var max =arr[0],tam=0;
+    //Duyet mang va gan lai phan tu max
+    for (var i=1;i<arr.length;i++){
+        if (max < arr[i]){
+           max=arr[i];
+           tam=i;
+        }
+    }
+    alert("Max= "+max +" vi tri: "+tam);
+</script>
+</body>
+</html>
