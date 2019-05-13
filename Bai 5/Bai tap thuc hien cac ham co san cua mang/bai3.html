@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chuyen ky tu thuong sang hoa </title>
+</head>
+<body>
+<script>
+    //Nhap 1 chuoi
+    var str = "abcDeFGHiklm";
+    // Khai bao mang
+    kq=[];
+    for (var i=0;i<str.length;i++){
+        if(str.indexOf(str[i])!==-1){
+            kq.push(str[i].toUpperCase());
+        }
+    }
+    document.write(kq.join(''));
+</script>
+</body>
+</html>

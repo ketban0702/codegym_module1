@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nhap so va chen</title>
+</head>
+<body>
+<script>
+    // Nhap 1 so tu ban phim
+    var num=parseInt(prompt(" Nhap so"));
+    var str=num.toString();// Chuyen so sang chuoi
+    kq=[str[0]];// khai bao mang
+    for (var i=1; i<str.length;i++){
+        if ((str[i-1]%2===0)&&(str[i]%2===0)){
+            kq.push('-',str[i]);
+        }else
+            kq.push(str[i]);
+    }
+    document.write(kq.join(''));
+</script>
+</body>
+</html>
