@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tu dien</title>
+</head>
+<body>
+    <input type="text" id="text">
+    <input type="button" onclick="pressClick()" value="Tim kiem">
+    <div id="show">Show</div>
+<script>
+    // Khai bao mang tieng anh
+    var arrEnglish=["Hello","Good morning","Good Afternoon","Good everning","tonight","date","time"]
+    // Khai bao mang tieng viet tuong ung
+    var arrVietNam=["Xin chao","Chao buoi sang","Chao buoi chieu","Chao buoi toi","Toi nay","Ngay","Gio"]
+    var index;
+    var result=document.getElementById("show");
+    function pressClick() {
+            for (var i=0;i<arrEnglish.length;i++){
+                 var value=document.getElementById("text").value;
+                 if (arrEnglish[i]==value){
+                  index=i;
+                  result.innerHTML = (arrVietNam[index]).toString();
+                   break;
+                 }else {
+                    result.innerHTML="Khong tra duoc tu" ;
+              }
+          }
+    }
+</script>
+</body>
+</html>
