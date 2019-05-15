@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tim gia tri nho nhat cua mang</title>
+</head>
+<body>
+<script>
+        //Khai bao mang
+       let arr =[4,1,2,3,5,10];
+        arr1=[];
+        //Viet ham tim gia tri nho nhat-->Gan ptu dau tien =min, chay vong lap de so voi cac phan tu khac va gan lai min
+        function minArr(mang) {
+            if (mang.length===0){
+                return "mang rong";
+            } else {
+                var min;
+                    min=mang[0];
+                    for (var i=1;i<mang.length;i++){
+                    if (mang[i]< min) {
+                        min=mang[i];
+                           }
+                        }
+                        return min;
+                     }
+            }
+        var gt = minArr(arr);
+        var gt1=minArr(arr1);
+        alert(gt);
+        alert(gt1);
+</script>
+</body>
+</html>
