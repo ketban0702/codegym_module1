@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chuyen doi foot sang meters va nguoc lai</title>
+</head>
+<body>
+<script>
+    function foottoMeters(foots) {
+        return foots * 0.305;
+    }
+    function meterstoFoot(meter) {
+        return meter * 3.279;
+    }
+    // Nhap foot chuyen sang meters
+    var foot1= parseInt(prompt("Nhap"));
+    var meter =foottoMeters(foot1);
+    alert(meter);
+    // Nhap meter chuyen sang foot
+    var meter1=parseInt(prompt("Nhap"));
+    var foot =meterstoFoot(meter1);
+    alert(foot);
+</script>
+</body>
+</html>
