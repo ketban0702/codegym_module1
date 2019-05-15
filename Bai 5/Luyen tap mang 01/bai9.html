@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Noi 2 mang 10 ptu a,b thanh c. Thu tu b xong den a</title>
+</head>
+<body>
+<script>
+    // Khai bao mang a 10 ptu
+    arrA=[1,2,3,4,5,4,6,7,8,9];
+    // Khai bao mang b 10 ptu
+    arrB=[10,12,13,14,15,14,16,71,18,19];
+    // Khai bao mang c 20 tu roi duyet mang b truoc
+    arrC=Array(20);
+    for (var i=0;i<arrB.length;i++){
+        arrC[i]=arrB[i];
+    }
+    for (var j=0;j<arrA.length;j++) {
+        arrC[j+10]=arrA[j];
+    }
+    alert(arrC);
+</script>
+</body>
+</html>

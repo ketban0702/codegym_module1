@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cho mang 10 ptu, hien thi cac gia tri lon nhat va vi tri, in ra gia tri trung binh</title>
+</head>
+<body>
+<script>
+    // Khai bao mang 10 phan tu
+    arr =[1,2,15,20,6,7,9,11,13,20];
+    // Ham tim gia tri lon nhat va vi tri
+    function max1(a,b) {
+        if (a>=b)
+            return a;
+        else
+            return b;
+    }
+    //Ham in ra gia tri trung binh
+    var sum=0;
+    for (var i=0;i<arr.length;i++){
+        sum+=arr[i];
+    }
+    var max=0,index ="";
+    for (var i=0;i<arr.length;i++){
+        max = max1(max,arr[i]);
+    }
+    for (var i=0;i<arr.length;i++){
+        if (arr[i]===max){
+            index +=i +"  ";
+        }
+    }
+        document.write(max +" vi tri "+ index+"<br>");
+        document.write("Gtri TB="+sum/arr.length);
+</script>
+</body>
+</html>

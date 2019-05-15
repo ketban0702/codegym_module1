@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nhap mang 10 ptu,tao 1 ptu va kiem tra no thuo mang ko</title>
+</head>
+<body>
+<script>
+    // Khai bao 1 mang
+    arr =[];
+    var value;
+    for (var i=0;i<10;i++){
+      value=parseInt(prompt("Nhap ptu:"));
+      arr.push(value);
+    }
+    var number=parseInt(prompt("Nhap ptu kiem tra:"));
+    for (var i=0;i<arr.length;i++){
+        if (value===arr[i]) {
+            document.write("Phan tu thuoc mang");
+            break;
+        }else {
+            document.write("Phan tu ko thuoc mang");
+            break;
+        }
+
+    }
+</script>
+</body>
+</html>

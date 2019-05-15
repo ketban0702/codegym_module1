@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kiem tra phan tu va xoa phan tu do</title>
+</head>
+<body>
+<script>
+    // Khai bao 1 mang
+    arr =[1,2,3,4,3];
+    var value=parseInt(prompt("Nhap"));
+    for (var i=0;i<arr.length;i++){
+        if (value===arr[i]){
+            arr.splice(i,1);
+            arr.push(0);
+        }
+    }
+    alert(arr);
+</script>
+</body>
+</html>

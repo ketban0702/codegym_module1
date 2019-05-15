@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Viet huong trinh dem so nguyen am cua 1 chuoi</title>
+</head>
+<body>
+<script>
+    //Nhap vao 1 chuoi
+    var str=prompt("Nhap 1 chuoi bat ky:");
+    var count=0;
+    for (var i=0;i<str.length-1;i++){
+        if ((str[i]==="-")&&(parseInt(str[i+1])>0)){
+            count++;
+        }
+    }
+    alert(count);
+</script>
+</body>
+</html>

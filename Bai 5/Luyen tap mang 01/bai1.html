@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cho mang 10 ptu so nguyen. Tinh va hien thi co bao nhieu so nguyen >=10</title>
+</head>
+<body>
+<script>
+    arr =[1,2,15,20,6,7,9,11,13,15,11,0];
+    var result=0,dem=0;
+    // Ham tinh tong
+    function sum(a,b) {
+        return a+b;
+    }
+    // Ham dem
+    function count(x) {
+        if (x >=10)
+            return 1;
+        else
+            return 0;
+    }
+    alert(arr.length);
+    if (arr.length%2===0) {
+       for (var i=0;i<arr.length;i=i+2){
+               result+=sum(arr[i],arr[i+1]);
+       }
+       for (var i=0;i<arr.length;i++){
+           dem += count(arr[i]);
+       }
+    }else{
+        arr.push(0);
+        for (var i=0;i<arr.length;i=i+2){
+            result+=sum(arr[i],arr[i+1]);
+        }
+        for (var i=0;i<arr.length;i++){
+            dem += count(arr[i]);
+        }
+    }
+    alert("Tong la: " + result +" co "+dem+" so >=10");
+</script>
+</body>
+</html>
