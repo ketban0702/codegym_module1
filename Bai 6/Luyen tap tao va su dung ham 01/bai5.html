@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+    Star:
+    <input type="text" id="text"><br>
+    <input type="button" value="click" onclick="ketqua()">
+    <div id="kq">Hien thi kq</div>
+<script>
+    //Khai bao 1 mang 7 ngoi sao
+    arrStar=["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe","Regulus"];
+    //Khai bao 1 mang 7 chom sao
+    arrConstellation = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major","Leo"];
+    function ketqua(){
+        var hienthi =document.getElementById("kq");
+        var value=document.getElementById("text").value;
+       //alert(value);
+        for (var i= 0;i<arrStar.length;i++)  {
+           // alert(1);
+            if (value===arrStar[i]){
+               hienthi.innerHTML=arrConstellation[i];
+               break;
+            }else {
+               hienthi.innerHTML="Khong co chom sao phu hop";
+            }
+        }
+    }
+</script>
+</body>
+</html>

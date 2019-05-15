@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nhap 1 so va tang so do len 1</title>
+</head>
+<body>
+    Nhap so:
+    <input type="number" id="text"><br>
+    <input type="button" value="Tang 1"onclick="addOne()">
+<script>
+    function addOne() {
+    var num = document.getElementById("text").value;
+    num ++;
+    document.getElementById("text").value=num;
+    }
+</script>
+</body>
+</html>
