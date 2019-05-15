@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ham kiem tra so nguyen to</title>
+</head>
+<body>
+<script>
+    function prime(num) {
+        if (num <2){
+             return false;
+        } else {
+            for (var i=2;i<num-1;i++){
+               if (num%i===0)
+                   return false;
+            }
+        return true;
+        }
+    }
+     // In cac so nguyen to tu 2 den number
+    var number=parseInt(prompt("Nhap"));
+    var kq="";
+    for (var i=2;i<=number;i++){
+        if (prime(i)===true){
+            kq += i +" ";
+        }
+    }
+    alert(kq);
+</script>
+</body>
+</html>
