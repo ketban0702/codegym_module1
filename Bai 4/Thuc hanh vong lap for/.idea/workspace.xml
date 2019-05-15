@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="303bf37d-3aef-4993-a964-ba5acce2d84a" name="Default Changelist" comment="" />
+    <list default="true" id="d12900ff-056b-41e1-bf42-18b5995d5391" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thuc hanh vong lap while/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Thuc hanh vong lap while/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bai1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="153">
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -26,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/bai2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -54,7 +58,7 @@
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
-        <option value="$PROJECT_DIR$/.idea/Thuc hanh vong lap while.iml" />
+        <option value="$PROJECT_DIR$/.idea/Thuc hanh vong lap for.iml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
@@ -79,8 +83,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="Thuc hanh vong lap while" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Thuc hanh vong lap while" type="462c0819:PsiDirectoryNode" />
+              <item name="Thuc hanh vong lap for" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Thuc hanh vong lap for" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -91,9 +95,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Thuc hanh vong lap for" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -110,10 +113,10 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.bai2.html">
-    <configuration name="bai1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Thuc hanh vong lap while/bai1.html" useBuiltInWebServerPort="true">
+    <configuration name="bai1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Thuc hanh vong lap for/bai1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bai2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Thuc hanh vong lap while/bai2.html" useBuiltInWebServerPort="true">
+    <configuration name="bai2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Thuc hanh vong lap for/bai2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -128,20 +131,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="303bf37d-3aef-4993-a964-ba5acce2d84a" name="Default Changelist" comment="" />
-      <created>1557893630874</created>
+      <changelist id="d12900ff-056b-41e1-bf42-18b5995d5391" name="Default Changelist" comment="" />
+      <created>1557894462958</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1557893630874</updated>
-      <workItem from="1557893631973" duration="831000" />
+      <updated>1557894462958</updated>
+      <workItem from="1557894464084" duration="464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="831000" />
+    <option name="totallyTimeSpent" value="464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -168,15 +172,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bai1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="153">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bai2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
         </state>
       </provider>
     </entry>
