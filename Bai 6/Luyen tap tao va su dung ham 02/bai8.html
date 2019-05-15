@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nhap vao 1 mang nguyen. dao nguoc mang</title>
+</head>
+<body>
+<script>
+   function daoNguocMang(arr) {
+        var dau=0,cuoi=arr.length-1;
+        var tam;
+        while (dau<cuoi){
+           tam=arr[dau];
+           arr[dau]=arr[cuoi];
+           arr[cuoi]=tam;
+           dau++;
+           cuoi--
+        }
+        return arr;
+   }
+    var arr1=[];
+    var num;
+   for (var i=0;i<5;i++){
+       num=parseInt(prompt("Nhap num"));
+       arr1.push(num);
+   }
+    var arr1=[1,2,3,4,5];
+    alert(daoNguocMang(arr1));
+</script>
+</body>
+</html>

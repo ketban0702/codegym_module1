@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dien tich hinh tron, chu vi hinh tron</title>
+</head>
+<body>
+<script>
+    function dienTich(r) {
+      return r*r*3.14;
+    }
+    function chuVi(r) {
+      return r*2*3.14;
+    }
+    var bankinh = parseInt(prompt("Nhap ban kinh:"));
+    if (bankinh<0)
+        alert("Nhap lai ban kinh")
+    else{
+        alert("dien tich: "+dienTich(bankinh));
+        alert("chu vi: "+chuVi(bankinh));
+    }
+</script>
+</body>
+</html>

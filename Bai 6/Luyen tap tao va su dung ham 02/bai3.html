@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Giai thua so nguyen</title>
+</head>
+<body>
+<script>
+    function giaiThua(a) {
+      if (a<2)
+          return 1;
+      else
+          return a*giaiThua(a-1);
+    }
+    var num=parseInt(prompt("Nhap n:"));
+    if (num<0)
+        alert("Nhap lai n");
+    else
+        alert(giaiThua(num));
+</script>
+</body>
+</html>
