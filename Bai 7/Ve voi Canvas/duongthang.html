@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ve duong thang</title>
+</head>
+<body>
+<canvas id="myCanvas" width="200" height="100"></canvas>
+<script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.moveTo(0,0); //Chuyen den goc toa do
+    ctx.lineTo(200,100); //Ve den diem (200,100)
+    ctx.stroke(); //Boi den
+</script>
+</body>
+</html>
