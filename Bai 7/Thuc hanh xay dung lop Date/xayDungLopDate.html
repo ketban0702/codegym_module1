@@ -10,22 +10,58 @@
 </head>
 
 <body>
-    <script src="MyDate.js">
-        
-    </script>
-    <script >
-        //Tao doi tuong
+    <script>
+        // Khai bao lop MyDate
+        let MyDate = function (day, month, year) {
+            //Thuoc tinh
+            this.day = day;
+            this.month = month;
+            this.year = year;
+            //Phuong thuc
+            //Tra ve ngay,thang,nam getDay(),getMonth(),getYear()
+            this.getDay = function () {
+                return this.day;
+            }
+            this.getMonth = function () {
+                return this.month;
+            }
+            this.getYear = function () {
+                return this.year;
+            }
+            //Thay doi gia tri day,month,year
+            this.setDay = function (_day) {
+                this.day = _day;
+            }
+            this.setMonth = function (_month) {
+                this.month = _month;
+            }
+            this.setYear = function (_year) {
+                this.year = _year;
+            }
+            //Thay doi gia tri day,month,year bang setDate
+            this.setDate = function (_day, _month, _year) {
+                this.day = _day;
+                this.month = _month;
+                this.year = _year;
+                return (this.day.toString() + "/" + this.month.toString() + "/" + this.year.toString());
+            }
+
+        };
+        //Khai bao doi tuong
         let date = new MyDate(2, 2, 2007);
-        // Truy cap phuong thuc
-        let day = date.day;
-        let month = date.month;
-        let year = date.year;
+        //Truy cap phuong thuc
+        let day = date.getDay();
+        let month = date.getMonth();
+        let year = date.getYear();
+        alert(day + "/" + month + "/" + year);
         document.write(day + "/" + month + "/" + year + "<br>");
-        //Goi phuong thuc doi ngay 10/10/2019
+        // Thay doi date sang 10/10/2019
         date.setDay(10);
         date.setMonth(10);
         date.setYear(2019);
-        document.write(date.day + "/" + date.month + "/" + date.year);
+        alert(date.day + "/" + date.month + "/" + date.year + "<br>");
+        date.setDate(10, 10, 2010);
+        document.write(date.day + "/" + date.month + "/" + date.year + "<br>");
     </script>
 </body>
 
