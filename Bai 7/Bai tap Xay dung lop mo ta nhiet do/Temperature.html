@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let Temperature = function (doC) {
+            //Thuoc tinh
+            this.doC = doC;
+            //Phuong thuc
+            this.toF=function(){
+                return (9*this.doC)/5+32;
+            }
+            this.toK=function(){
+                return 273.15+this.doC;
+            }
+        };
+        let nhietdo=new Temperature(25);
+        document.write(nhietdo.doC+"<br>");
+        // Chuyen sang do F
+        document.write(nhietdo.toF()+"<br>");
+        //Chuyen sang do K
+        document.write(nhietdo.toK());
+    </script> 
+</body>
+
+</html>
