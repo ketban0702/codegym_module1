@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas id="myCanvas" width="1368px" height="768px" style="border:1px solid#000000"></canvas>
+    <script>
+        //Ve 1 hinh tron  mau sac co dinh, ban kinh co dinh
+        function Circle(x, y, radius) {// Khai bao lop Circle
+            this.X = x;
+            this.Y = y;
+            this.RADIUS = radius;
+            this.setRange = function () {
+                var range = 60;
+                var range1 = Math.random() * 300;
+                this.X += range;
+               // this.Y += range;
+            }
+        }
+        function createCircle() { //Ve hinh tron tam(500,500) ban kinh 80, mau den
+            var ctx = document.getElementById("myCanvas").getContext("2d");
+            var circle = new Circle(10, 10, 30);
+            ctx.beginPath();
+            circle.setRange();
+            ctx.arc(circle.X, circle.Y, circle.RADIUS, 0, 2 * Math.PI);//ve hinh tron, x,y la toa do tam,
+            ctx.fillStyle = "#A52A2A";
+            ctx.fill();
+        }
+        createCircle();
+        for(var i=1;i<500;i++){
+            createCircle();
+        }
+        //Bo sung tinh nang di chuyen cho hinh tron do
+
+    </script>
+</body>
+
+</html>
