@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let Mobile = function (name, pin, status, write, inbox, outbox) {
+            //Thuoc tinh
+            this.NAME = name;//ten
+            this.PIN = pin;//pin
+            this.STATUS = status;//Trang thai dien thoai
+            this.WRITE = write;//vung nho tin nhan dang soan
+            this.INBOX = new Array_inbox(6);//vung nho tin nhan nhan
+            this.OUTBOX =new Array_outbox(6);//vung nho tin nhan gui 
+            //Chuc nang-Phuong thuc
+           /* this.checkStatus = function () { //Kiem tra dien thoai bat hay tat
+                if (this.STATUS)
+                    return "DT dang bat";
+                if (!this.STATUS)
+                    return "DT dang tat";
+            }
+
+            this.turnOn_Off = function () { //Tat bat dien thoai
+                this.STATUS = !this.STATUS;
+            }
+
+            this.setChargePin = function () {
+                while ((this.PIN >= 0) && (this.PIN < 100)) {//Sac pin
+                    this.PIN++;
+                }
+                this.PIN = this.PIN;
+            }
+
+            this.setWriteMess = function (mess) { //Soan tin nhan
+                if (this.STATUS) {
+                    this.PIN--;
+                    this.WRITE = mess;
+                }
+            }
+            this.getInBox = function () {//------>Goi ham gui tin nhan
+                if (this.STATUS) {
+                    this.PIN--;
+                }
+                this.INBOX=this.setOutBox();
+                return this.INBOX;
+            }
+            this.setOutBox = function () {// Gui tin nhan-->divao Outbox
+                if (this.STATUS) {
+                    this.PIN--;
+                    this.OUTBOX =this.WRITE;
+                    this.WRITE="";
+                }
+                return this.OUTBOX;
+            }
+        };
+        let nokia = new Mobile("nokia", 45, true, "aa", "", "");//Khai bao doi tuong nokia
+        let iphone = new Mobile("iphone", 50, true, "", "", "");//Khai bao doi tuong iphone
+        nokia.NAME; document.write(nokia.NAME + "<br>");
+        nokia.PIN; document.write(nokia.PIN + "<br>");
+        nokia.STATUS; document.write(nokia.STATUS + "<br>");
+        nokia.checkStatus(); document.write(nokia.checkStatus() + "<br>");
+        nokia.turnOn_Off(); document.write(nokia.STATUS + "<br>"); document.write(nokia.checkStatus() + "<br>");
+        nokia.setChargePin(); document.write(nokia.PIN + "<br>");
+        nokia.WRITE; document.write(nokia.WRITE + "<br>");
+        nokia.turnOn_Off();
+        nokia.setWriteMess("Hel"); document.write(nokia.PIN + "<br>");
+        document.write(nokia.WRITE+"<br>");
+        nokia.setOutBox();document.write(nokia.OUTBOX+"<br>");
+        iphone.NAME;document.write(iphone.NAME+"<br>");
+        iphone.INBOX;document.write(iphone.INBOX+"<br>");
+        iphone.INBOX=nokia.setOutBox();
+        iphone.INBOX;document.write(iphone.INBOX+"<br>");
+        document.write(nokia.PIN);*/
+        
+    </script>
+</body>
+
+</html>
