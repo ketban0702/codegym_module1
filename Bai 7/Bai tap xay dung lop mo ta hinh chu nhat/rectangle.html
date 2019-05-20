@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas id="canvas" width="200" height="100"></canvas>
+    <script>
+        //Khai bao lop Rectangle
+        let Rectangle = function (length, width) {
+            this.LENGTH = length;
+            this.WIDTH = width;
+            //Xay dung cac phuong thuc
+            this.area = function () {
+                return this.LENGTH * this.WIDTH;
+            }
+            this.ambit = function () {
+                return (this.WIDTH + this.LENGTH) * 2;
+            }
+            this.draw = function () {
+                var canvas=document.getElementById("canvas");
+                var ctx=canvas.getContext("2d");
+            return ctx.fillRect(0,0,this.LENGTH,this.WIDTH);
+            }
+        };
+        //Khai bao 1 doi tuong rectangle
+        let rectangle =new Rectangle(150,75);
+        rectangle.area();document.write(rectangle.LENGTH+"<br>");
+        document.write(rectangle.WIDTH+"<br>");
+        document.write(rectangle.area()+"<br>");
+        document.write(rectangle.ambit());
+        rectangle.draw();
+    </script>
+</body>
+
+</html>
