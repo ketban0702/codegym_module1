@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //Khoi tap lop Tivi
+        let Tivi = function (chanel, volume, status) {//thuoc tinh chanel,volume,status
+            this.CHANEL = chanel;
+            this.VOLUME = volume;
+            this.STATUS = status;
+            //Khai bao phuong thuc
+            this.changeChanel = function (chanel) {//phuong thuc doi kenh
+                this.CHANEL = chanel;
+            }
+            this.increaseVolume = function () {//phuong thuc tang volume
+                this.VOLUME++;
+            }
+            this.decreaseVolume = function () {//phuong thuc giam volume
+                this.VOLUME--;
+            }
+            this.getVolume = function () {//phuong thuc tra ve gia tri volume
+                return this.VOLUME;
+            }
+            this.getChanel = function () {//phuong thuc tra ve gia tri chanel
+                return this.CHANEL;
+            }
+            this.turnOn_Off = function () {//phuong thuc tat bat tivi
+                this.STATUS = !this.STATUS;
+            }
+        };
+        //Khoi tao lop Remote
+        let Remote = function (code, objTivi) {//thuoc tinh code
+            this.CODE = code;
+            this.TIVI = objTivi;
+            //Khai bao phuong thuc
+            this.changeChanel = function (chanel) {//phuong thuc set lai gia tri cho tivi thong qua remote
+                Remote.TIVI.CHANEL = chanel;
+            }
+            this.decreaseVolume = function () {//phuong thuc tang volume cho tivi goi tu remote
+                Remote.TIVI.VOLUME++;
+            }
+            this.increaseVolume = function () {//phuong thuc tang volume cho tivi goi tu remote
+                Remote.TIVI.VOLUME--;
+            }
+        };
+        //Hoat dong
+        let tivi = new Tivi(3, 30, false);
+        let remote = new Remote(111, tivi);
+        //Kiem tra tang thai tivi, neu dang tat thi bat len
+        tivi.STATUS; document.write(tivi.STATUS + "<br>");//true
+        if (!tivi.STATUS)
+            tivi.turnOn_Off();
+        document.write(tivi.STATUS + "<br>");//true
+        //Chuyen tivi sang kenh so 7
+        tivi.changeChanel(7);document.write(tivi.CHANEL+"<br>");
+        //Dung remote chuyen toi kenh 3
+        remote.TIVI.changeChanel(3);document.write(tivi.CHANEL+"<br>");
+        //Tang volume len 2 don vi
+        tivi.increaseVolume();tivi.increaseVolume();
+        document.write(tivi.VOLUME+"<br>");
+        //Dung remote tat tivi
+        remote.TIVI.turnOn_Off();
+        document.write(tivi.STATUS);
+    </script>
+</body>
+
+</html>
