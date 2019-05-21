@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //Khoi tao lop SwitchButton
+        let SwitchButton = function (status, lamp) {//khia bao thuoc tinh status,lamp
+            this.STATUS = status;
+            this.LAMP = lamp;
+            // Khai bao phuong thuc
+            this.connectToLamp = function (ElectricLamp) {
+                this.LAMP = ElectricLamp;
+            }
+            this.switchOff = function () {//Tat
+                this.STATUS = false;
+            }
+            this.switchOn = function () {//Bat
+                this.STATUS = true;
+            }
+        };
+        //Khai bao lop ElectricLamp
+        let ElectricLamp = function (status, light) {//thuoc tinh status
+            this.STATUS = status;
+            this.LIGHT = light;
+            //Khai bao phuong thuc
+            this.turnOff = function () {//Tat den
+                this.STATUS = false;
+            }
+            this.turnOn = function () {//Bat den
+                this.STATUS = true;
+            }
+            this.checkLamp = function () {
+                if (this.LIGHT)
+                    return "Den sang";
+                else
+                    return "Den tat";
+            }
+        };
+        //Hoat dong
+        let switchbutton = new SwitchButton(true, null);
+        switchbutton.STATUS; document.write(switchbutton.STATUS + "<br>");//true
+        let lamp = new ElectricLamp(false, false);
+        lamp.STATUS; document.write(lamp.STATUS + "<br>");//true
+        lamp.LIGHT; document.write(lamp.LIGHT + "<br>"); lamp.checkLamp();//false
+        document.write(lamp.checkLamp() + "<br>");//den tat
+        switchbutton.connectToLamp(lamp);//ket noi cong tat voi bong den
+        switchbutton.LAMP.checkLamp();
+        document.write(switchbutton.LAMP.checkLamp() + "<br>");//den tat
+        //Kiem tra den bat cong tac chua, chua bat thi bat len
+     /*   if (!lamp.STATUS)
+            lamp.turnOn();*/
+        var i = 0;
+        //Bat cong tac switch
+        while (i < 5) {
+            switchbutton.switchOff();
+            switchbutton.switchOn();
+            i++;
+        }
+        if ((switchbutton.STATUS === true) && (switchbutton.LAMP.STATUS === true)) {
+            switchbutton.LAMP.LIGHT = true;
+            document.write(switchbutton.LAMP.checkLamp()) + "<br>";//den sang
+        }else
+            switchbutton.LAMP.LIGHT = false;
+            document.write(switchbutton.LAMP.checkLamp()) + "<br>";
+    </script>
+</body>
+
+</html>
