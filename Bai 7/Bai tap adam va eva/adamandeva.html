@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Khoi tao lop Apple
+        let Apple = function (weight) {// thuoc tinh weight
+            this.WEIGHT = weight;
+            //Khai bao phuong thuc
+            this.setDecrease = function () {//Phuong thuc giam weight 1 don vi
+                this.WEIGHT--;
+            }
+            this.isEmtry = function () { //Phuong thuc kiem tra tao con hay het
+                if (this.WEIGHT === 0)
+                    return false;
+                else
+                    return true;
+            }
+            this.getWeight = function () { //Phuong thuc tra ve trong luong qua tao
+                return this.WEIGHT;
+            }
+        };
+        // Khoi tao lop Human
+        let Human = function (name, gender, weight, objAple) { //thuoc tinh name,gender,weight
+            this.NAME = name;
+            this.GENDER = gender;
+            this.WEIGHT = weight;
+            this.APPLE = objAple;//Doi tuong lien ket len lop Apple
+            //Khai bao cac phuong thuc
+            this.isMale = function () {//Kiem tra gioi tinh
+                return this.GENDER;
+            }
+            this.setGender = function () {//set lai gioi tinh
+                this.GENDER = !this.GENDER;
+            }
+            this.checkApple = function () {// kiem tra Tao
+                if (this.APPLE.WEIGHT > 0)// goi thuoc tinh WEIGHT cua Apple
+                    return "An tiep";
+                else
+                    return "Het";
+            }
+            this.eat = function () {//phuong thuc an Tao
+                if (this.APPLE.WEIGHT > 0) {
+                    this.APPLE.WEIGHT--;
+                    this.WEIGHT++;
+                }
+            }
+            this.say = function (somethinh) {//phuong thuc say-something
+                return somethinh;
+            }
+            this.getName = function () {//get Name
+                return this.NAME;
+            }
+            this.setName = function (name) {//set Name
+                this.NAME = name;
+            }
+            this.getWeight = function () {//get Name
+                return this.WEIGHT;
+            }
+            this.setWeight = function (weight) {//set weight
+                this.WEIGHT = weight;
+            }
+        };
+        //Chay chuong trinh
+        let apple = new Apple(2);
+        let adam = new Human('adam', true, 50, apple);
+        let eva = new Human('eva', false, 40, apple);
+        apple.WEIGHT;document.write(apple.WEIGHT+"<br>");//10
+        adam.eat();document.write(adam.WEIGHT+"<br>");//51
+        document.write(apple.WEIGHT+"<br>");//9
+        eva.eat();document.write(eva.WEIGHT+"<br>");//41
+        document.write(apple.WEIGHT+"<br>");//8
+        eva.checkApple();document.write(eva.checkApple());
+    </script>
+</body>
+
+</html>
