@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="class.css">
+    <title>Document</title>
+</head>
+
+<body>
+    Hoat dong cua tivi:
+    <table border="2">
+        <tr>
+            <td class="td1">
+                <input type="button" value="Chanel" class="td1">
+            </td>
+            <td class="td12">
+                <div id="text1"></div>
+            </td>
+            <td class="td1">
+                <input type="button" value="Volume" class="td1">
+            </td>
+            <td class="td12">
+                <div id="text2"></div>
+            </td>
+        </tr>
+        <tr>
+            <td class="td21" colspan="2">
+                <input type="button" value="Tivi" class="td22">
+            </td>
+            <td class="td21" colspan="2">
+                <input type="button" value="Remote" class="td22">
+            </td>
+        </tr>
+        <tr>
+            <td class="td21">
+                <input type="button" value="Change" class="td21" onclick="changeTivi()">
+            </td>
+            <td class="td12">
+                <input type="number" class="td12" id="text3">
+            </td>
+            <td class="td21">
+                <input type="button" value="Change" class="td21" onclick="changeRemote()">
+            </td>
+            <td class="td12">
+                <input type="text4" class="td12" id="text4">
+            </td>
+        </tr>
+        <tr>
+            <td class="td21">
+                <input type="button" value="+" class="td21" onclick="increaseVolumeTivi()">
+            </td>
+            <td class="td12">
+                <input type="button" value="-" class="td21" onclick="decreaseVolumeTivi()">
+            </td>
+            <td class="td21">
+                <input type="button" value="+" class="td21" onclick="increaseVolumeRemote()">
+            </td>
+            <td class="td12">
+                <input type="button" value="-" class="td21" onclick="decreaseVolumeRemote()">
+            </td>
+        </tr>
+    </table>
+    <script>
+        //Khai bao class Remote
+        class Remote {
+            constructor(code, objTivi) {
+                this.CODE = code;
+                this.TIVI = objTivi;
+            }
+            //Khai bao phuong thuc
+            changeChanel(chanel) {
+                this.TIVI.CHANEL = chanel;
+            }
+            controlVolumeIncrease() {
+                this.TIVI.VOLUME++;
+            }
+            controlVolumeDecrease() {
+                this.TIVI.VOLUME--;
+            }
+        };
+        class Tivi {
+            constructor(chanel, volume, status) {
+                this.CHANEL = chanel;
+                this.VOLUME = volume;
+                this.STATUS = status;
+            }
+            //Khai bao phuong thuc
+            changeChanel(chanel) {
+                this.CHANEL = chanel;
+            }
+            controlVolumeIncrease() {
+                this.VOLUME++;
+            }
+            controlVolumeDecrease() {
+                this.VOLUME--;
+            }
+            turnOn_Off() {
+                this.STATUS = !this.STATUS;
+            }
+        }
+        //Hoat dong
+        let tivi = new Tivi(3, 35, false);
+        console.log(tivi.CHANEL);
+        document.getElementById("text1").innerHTML = tivi.CHANEL;
+        document.getElementById("text2").innerHTML = tivi.VOLUME;
+        let remote = new Remote(11, tivi);
+        var chanelRemote = document.getElementById("text4");
+        tivi.turnOn_Off();
+        //Function doi kenh tivi tu tivi
+        function changeTivi() {
+            var chanel = document.getElementById("text3").value;
+            tivi.changeChanel(chanel);
+            document.getElementById("text1").innerHTML = tivi.CHANEL;
+        }
+        //Function doi ten tivi tu remote
+        function changeRemote() {
+            var chanel = document.getElementById("text4").value;
+            remote.TIVI.changeChanel(chanel);
+            document.getElementById("text1").innerHTML = tivi.CHANEL;
+        }
+        //Function tang giam Volume
+        function increaseVolumeTivi() {
+            tivi.controlVolumeIncrease();
+            document.getElementById("text2").innerHTML = tivi.VOLUME;
+        }
+        function decreaseVolumeTivi() {
+            tivi.controlVolumeDecrease();
+            document.getElementById("text2").innerHTML = tivi.VOLUME;
+        }
+        //Function tang giam Volume bang remote
+        function increaseVolumeRemote() {
+            remote.TIVI.controlVolumeIncrease();
+            document.getElementById("text2").innerHTML = tivi.VOLUME;
+        }
+        function decreaseVolumeRemote() {
+            remote.TIVI.controlVolumeDecrease();
+            document.getElementById("text2").innerHTML = tivi.VOLUME;
+        }
+    </script>
+</body>
+
+</html>
