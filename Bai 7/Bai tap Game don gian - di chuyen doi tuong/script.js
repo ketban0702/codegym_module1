@@ -34,7 +34,7 @@ function Hero(image, top, left, size, speed) {
   }
 }
 
-var hero = new Hero('car.png', 20, 30, 20, 300);
+var hero = new Hero('car.png', 20, 30, 20, 30);
 
 function start() {
   if ((hero.left < window.innerWidth - hero.size) && (hero.top < 30)) {
