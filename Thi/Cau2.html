@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function tryRemoveFromArray(arr, index) {
+            for (var i=0; i < arr.length; i++) {
+               if(i===index) arr.splice(index,1);
+            }
+            return arr;
+        }
+        //Kiem tra ket qua
+        var arr=[12,6,3,7,21,5,7];
+        var index=2;
+        document.write("arr:" + tryRemoveFromArray(arr,index));
+    </script>
+</body>
+
+</html>

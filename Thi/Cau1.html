@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function findMinScore(arr) {
+            if (arr.length === 0) {
+                document.write("Vui long khong nhap mang trong");
+            } else {
+                var min = arr[0];
+                for (var i = 1; i < arr.length; i++) {
+                    if (min > arr[i])
+                        min = arr[i]
+                }
+                return min;
+            }
+        }
+        //Kiem tra ket qua
+        var arr1 = [8, 6, 2, 6, 1, 1, 4];
+        document.write("min cua mang la:"+ findMinScore(arr1));
+    </script>
+</body>
+
+</html>

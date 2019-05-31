@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function swap(arr) {
+            var tam;
+            for (var i = 0; i < (arr.length / 2); i++) {
+                tam = arr[i];
+                arr[i] = arr[arr.length - 1 - i];
+                arr[arr.length - 1 - i] = tam;
+            }
+            return arr;
+            /* var arrnew=[];
+             for(var i=0;i<arr.length;i++){
+                 arrnew.push(arr[arr.length-1-i]);
+             }
+             return arrnew;
+         }*/
+        }
+        var a = [1, 2, 3, 4, 5];
+        alert(swap(a));
+    </script>
+</body>
+
+</html>
